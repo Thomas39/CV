@@ -1,0 +1,91 @@
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('RobotoMono-Medium.ttf');
+}
+@font-face
+{
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.ttf');
+}
+
+html
+{
+    background-color: #F0F0F0;
+}
+
+body
+{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(to right, #F0F0F0, white, white, #F0F0F0);
+    border: solid 1px silver;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px silver;
+    font-family: 'Roboto';
+    color: #707070;
+}
+
+header
+{
+    text-align: center;
+}
+
+section:first-of-type
+{
+    clear: both;
+}
+
+section
+{
+    padding: 10px 20px;
+    color: #404040;
+    width: calc(33% - 40px);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+footer
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: #404040;
+}
+
+h1, h2, h3
+{
+    font-family: 'Montserrat';
+}
+h1
+{
+    font-size: 3em;
+    color: #1010A8;
+}
+h2
+{
+    color: #202080;
+    text-align: center;
+}
+h3 
+{ 
+    color: #404040;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img
+{
+    border-radius: 50%;
+    text-align: left;
+    margin-left: -30px;
+    margin-top: -30px;
+    float: left;
+    box-shadow: 3px 3px 5px silver;
+}
